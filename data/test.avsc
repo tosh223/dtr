@@ -1,0 +1,17 @@
+{"namespace": "test.avro",
+ "type": "record",
+ "name": "wine",
+ "fields": [
+     {"name": "id", "type": "int"},
+     {"name": "country", "type": "string"},
+     {"name": "description", "type": "string"},
+     {"name": "designation", "type": "string"},
+     {"name": "points", "type": "int"},
+     {"name": "price", "type": "string"},
+     {"name": "province", "type": "string"},
+     {"name": "region_1", "type": "string"},
+     {"name": "region_2", "type": "string"},
+     {"name": "variety", "type": "string"},
+     {"name": "winery", "type": "string"}
+ ]
+}
